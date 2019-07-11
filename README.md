@@ -1,9 +1,9 @@
 # Lambda Repeated Word
 
 ## Deployed Site
-[Live](https://y7ps1rgksb.execute-api.us-east-1.amazonaws.com/RepeatedWord?myQueryString=here%20time%20at%20a%20time)
+[Live](https://y7ps1rgksb.execute-api.us-east-1.amazonaws.com/RepeatedWord?myQueryString=a%20time%20at%20a%20time)
 
-Live site link should return "time".
+Live site link should return "a".
 
 ## Getting started
 - git clone this repo
