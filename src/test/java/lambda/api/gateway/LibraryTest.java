@@ -7,8 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+
+    @Test
+    public void getA() {
+        Library rp = new Library();
+        assertEquals("Should return a", rp.findWord("Once upon a time, there was a brave princess who..."), "a");
     }
 }
